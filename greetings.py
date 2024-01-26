@@ -1,7 +1,8 @@
-# Edited by Dhanush-Thenappan
 
-def main():
-    print("Hello, dhanush thenappan")
+def main(name):
+    print(f'Hello, {name}')
+
 
 if __name__ == '__main__':
-    main()
+    name = input("Enter your name : ")
+    main(name)
